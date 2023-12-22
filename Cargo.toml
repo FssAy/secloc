@@ -1,0 +1,15 @@
+[package]
+name = "secloc"
+version = "0.1.0"
+authors = ["FssAy"]
+license = "GPL-3.0-only"
+repository = "https://github.com/FssAy/secloc"
+edition = "2021"
+
+[dependencies.winapi]
+version = "0.3"
+features = [
+    "minwindef",
+    "libloaderapi",
+    "winnt",
+]
